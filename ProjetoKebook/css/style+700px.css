@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#section-up {
+    background-image: url(../files/imgs/back-top-home.png);
+    padding-bottom: 210px; 
+    
+    height: 500px;
+
+   
+}
+
+.navbar-brand {
+    color: #FEFAEE;
+}
+
+.navbar-brand:hover{
+    color: #FEFAEE;
+
+}
+
+.nav-link {
+        border-bottom: none; 
+        font-weight: normal;
+        color: #FEFAEE;
+        text-decoration: none;
+    }
+    
+    .nav-link:hover {
+        border-bottom: 1px solid #FEFAEE; 
+        font-weight: bold;
+        color: #FEFAEE;
+
+    }
+
+    
+.material-symbols-outlined {
+
+    color: #FEFAEE;
+  
+}
+
+
+.btn-login{
+    border-radius: 45px;
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 24px;
+    border-color: #FEFAEE;
+    border-width: 1px;
+    border-style: solid;
+    height:60px;
+    width: 200px;
+    padding: 1px;
+}
+
+.navbar-nav{
+    margin-bottom: 5px;
+}
+
+
+.nav-item{
+    margin: 10px 20px;
+}
+
+#btn-link{
+    border-bottom: none; 
+    font-weight: normal;
+    color: #FEFAEE;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav-item-menu{
+    width: 130px;
+    align-items: center;
+}
+
+#nav-item-search {
+    margin-top: 10px;
+}
+
+#navbar-brand-Kebook {
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+#div-main {
+    background-color: transparent;
+    width: 50%;
+    margin-left: 130px;
+    margin-top: 5px;
+   
+   
+    
+}
+
+#div-main-upper{
+    width: 69%;
+}
+
+#div-main-upper-text{
+ font-size: 60px;
+ color: #FEFAEE;
+   
+}
+
+#div-main-upper-text-span {
+  font-weight: bolder;
+  
+}
+
+#div-main-bottom-text {
+    color: #FEFAEE;
+    font-size: 125%
+   
+}
+
+
+
+#div-main-bottom-btn-left {
+    background-color: #FB100A;
+    border-radius: 25px;
+    width: 250px;
+    height: 55px;
+    margin-right: 30px;
+    border: none;
+}
+
+#div-main-bottom-btn-left:hover {
+    background-color: #FC985B;
+    
+}
+
+#div-main-bottom-btn-left:hover a {
+    color: black;}
+
+
+#div-main-bottom-btn-left-anchor{
+    text-decoration: none;
+    color: #FEFAEE;
+    font-weight: bold;
+}
+
+#div-main-bottom-btn-right {
+    width: 300px;
+    height: 55px;
+    border-radius: 25px;
+    background-color: transparent;
+    border-color: #FEFAEE;
+    border-style: solid;
+
+}
+
+#div-main-bottom-btn-right:hover {
+    background-color: #FEFAEE;
+}
+
+#div-main-bottom-btn-right-anchor{
+    text-decoration: none;
+    color: #FEFAEE;
+    font-weight: bold; 
+}
+#div-main-bottom-btn-right:hover a {
+    color: #FC985B;
+}
+
+#div-main-footer {
+    margin-top: 50px;
+}
+
+#div-main-footer-text {
+    color: #FEFAEE;
+}
+
+#div-main-footer-text-anchor {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: #FEFAEE;
+    font-weight: bold;
+}
+
+#img-between {
+    width: 500px;
+    height: 500px;
+   position: absolute;
+   transform: translateX(690px) translateY(-400px);
+
+}
+
+#div-section-bottom-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.div-section-bottom-main-h1{
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+#open-button{
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    visibility: hidden;
+}
+
+  /* MODAL*/
+  #modal {
+    display: none; /* hidden by default */
+    position: fixed; /* stay in place */
+    z-index: 1; /* sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* full width */
+    height: 100%; /* full height */
+    overflow: auto; /* enable scroll if needed */
+    background-color: rgb(0,0,0); /* fallback color */
+    background-color: rgba(0,0,0,0.4); /* black w/ opacity */
+  }
+  
+  /* Modal Content */
+  #modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  #close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  #close-button:hover,
+  #close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
